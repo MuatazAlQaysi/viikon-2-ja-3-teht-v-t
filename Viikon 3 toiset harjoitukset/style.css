@@ -1,0 +1,14 @@
+body {
+  background-color: lightyellow;
+}
+
+.one {
+
+  position: absolute;
+    top: 25px;
+      background-color: lightgreen;
+      padding: 8px;
+      width: 33%;
+      margin-left: 25px;
+
+}

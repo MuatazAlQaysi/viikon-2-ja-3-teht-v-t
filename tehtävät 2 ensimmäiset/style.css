@@ -1,0 +1,49 @@
+.one {
+  position: absolute;
+  top: 20px;
+    background-color: yellow;
+    padding: 10px;
+    width: 35%;
+}
+
+.two {
+  position: relative;
+  left: 38%;
+  position: absolute;
+  top: 20px;
+  background-color: lightblue;
+  padding: 5px;
+  width: 35%;
+
+}
+
+
+.three {
+  position: absolute;
+  top: 390px;
+  background-color: gray;
+  padding: 8px;
+  width: 35%;
+
+}
+
+.four {
+  position: relative;
+  left: 38%;
+  position: absolute;
+  top: 390px;
+  background-color: pink;
+  padding: 8px;
+  width: 35%;
+
+}
+
+.five {
+  position: absolute;
+  top: 620px;
+
+  background-color: lightgreen;
+  padding: 8px;
+  width: 35%;
+
+}
