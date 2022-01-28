@@ -7,6 +7,9 @@
   </head>
   <body>
       <script type="text/javascript" src="functions.js"></script>
+
+
+
     <div class="one">
       <h1>Tehtävä 1</h1>
       Tee ohjelma, joka pyytää käyttäjältä parillista
@@ -45,6 +48,7 @@
     <br>
     <input type="button" value="Muuta Salasanaksi"
       name="button" onclick="f2()">
+
     </div>
 
 
@@ -104,8 +108,6 @@ Anna luku, josta lasketaan kertoma:
 
 
 
-
-
   <div class="six">
     <h1>Tehtävä 6</h1>
     Kirjoita ohjelma, joka tulostaa 10 ensimmäistä numeroa
@@ -132,16 +134,17 @@ Anna luku, josta lasketaan kertoma:
     <h1>Tehtävä 8</h1>
     Kirjoita ohjelma, joka kysyy käyttäjältä kahta lukua ja laskee ensimmäisen
     <br>
-    potenssiin toinen esim. 5 ja 2 = 52 = 25
+    potenssiin toinen esim. 5 ja 2 = 5<sup>2</sup> = 25
     <br>
     <br>
     Anna korotettava luku: <input type="text" name="eight_one" id="eight_one" >
     <br>
     <br>
-    Anna potenssi: <input type="text" name="eight_one" id="eight_one" >
+    Anna potenssi: <input type="text" name="eight_two" id="eight_two" >
     <br>
     <input type="button" value="Laske"
       name="button" onclick="f8()">
+      <p id="eight"></p>
   </div>
 
   <div class="nine">
@@ -165,6 +168,7 @@ Anna luku, josta lasketaan kertoma:
     <br>
     <input type="button" value="Etsi suurin ja pienin"
       name="button" onclick="f9()">
+      <p id="ninth"></p>
   </div>
 
 
@@ -176,10 +180,11 @@ Anna luku, josta lasketaan kertoma:
     Muokataan salasalatehtävää siten, että se arpoo kirjaimen Ö:n sijasta
     <br>
     <br>
-    Anna muokattava salasana: <input type="text" name="nine_five" id="nine_five" >
+    Anna muokattava salasana: <input type="text" name="nine_five" id="ten_one" >
 
-    <input type="button" value="Muunaa salasanaksi"
-      name="button" onclick="f11()">
+    <input type="button" value="Muunna salasanaksi"
+      name="button" onclick="f10()">
+      <p id="tenth"></p>
 
   </div>
 
@@ -197,13 +202,15 @@ Anna luku, josta lasketaan kertoma:
     summat
     <br>
     <br>
-  Anna pienempi numero:  <input type="text" name="nine_five" id="nine_five" >
+  Anna pienempi numero:  <input type="text" name="nine_five" id="eleven_one" >
     <br>
     <br>
-      Anna isompi numero: <input type="text" name="nine_five" id="nine_five" >
+      Anna isompi numero: <input type="text" name="nine_five" id="eleven_two" >
       <br>
       <br>
    <input type="button" value="Näytä parilliset ja parittomat erikseen sekä niiden summa"
+     name="button" onclick="f11()">
+       <p id="elventh"></p>
     <br>
 
   </div>
